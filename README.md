@@ -65,7 +65,7 @@ EMAIL_PASSWORD=<your_email_password>
 7. Access the API documentation at:
 
    ```
-   http://localhost:3000/api/docs
+  http://localhost:3000/api-docs
    ```
 
 ## Example API Requests

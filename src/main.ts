@@ -27,7 +27,7 @@ async function bootstrap() {
     .addTag('Registrations')
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api/docs', app, document);
+  SwaggerModule.setup('api-docs', app, document);
 
   // Set the WebSocket adapter (optional, based on your use case)
   app.useWebSocketAdapter(new IoAdapter(app));
